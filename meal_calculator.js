@@ -31,8 +31,6 @@
   showTheBill();
 
   var showTheBill = function(){
-    
-
     for (person in theBill){
       personTotal = 0;
       beforeTipTotal = 0;
@@ -49,7 +47,6 @@
       theTotal += personTotal;
     };
     console.log("The total bill is $" + round(theTotal) );
-
-  });
+  };
 
 })()
