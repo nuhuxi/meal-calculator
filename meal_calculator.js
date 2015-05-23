@@ -42,12 +42,12 @@
       console.log(theBill[person].name + "'s total before tax and tip is " + round(beforeTipTotal));
       personTotal = beforeTipTotal + (beforeTipTotal * tipRate);
       personTotal = personTotal + (beforeTipTotal * taxRate);
-      console.log(theBill[person].name + "'s bill is " + round(personTotal));
+      console.log(theBill[person].name + "'s total is " + round(personTotal));
       theTotal += personTotal;
     };
     console.log("The total bill is $" + round(theTotal) );
   };
 
   showTheBill();
-  
+
 })()
