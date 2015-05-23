@@ -28,12 +28,10 @@
   var round = function(num){
     return Math.ceil(num * 100) / 100;
   };
+  showTheBill();
 
-  $("#showTheBill").click(function () {
-
-    /*var theNumber = theBill[0].items.length;
-     console.log("the item is: " + theBill[0].items[1].item[0]);
-     console.log("The number of items is: " + theNumber);*/
+  var showTheBill = function(){
+    
 
     for (person in theBill){
       personTotal = 0;
