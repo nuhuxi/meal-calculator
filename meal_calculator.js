@@ -28,7 +28,6 @@
   var round = function(num){
     return Math.ceil(num * 100) / 100;
   };
-  showTheBill();
 
   var showTheBill = function(){
     for (person in theBill){
@@ -49,4 +48,6 @@
     console.log("The total bill is $" + round(theTotal) );
   };
 
+  showTheBill();
+  
 })()
